@@ -27,14 +27,14 @@ In this project, we were asked by a client to gather voting data from multiple c
 
 ##### Election Results List
 <p align="center">
-<img width="460" height="300" src="https://user-images.githubusercontent.com/85508764/123829385-08f0f500-d8c8-11eb-8ddf-eec22860f7ea.png">
+<img width="316" height="411" src="https://user-images.githubusercontent.com/85508764/123829385-08f0f500-d8c8-11eb-8ddf-eec22860f7ea.png">
 </p>
 ### Election-Audit Summary
 
 Throughout this project, we worked with the intention of keeping this code modular so that it can be scaled up to large national elections or down to local elections. With this code, you can simply change the csv file that the code is pointing to in this line `file_to_load = os.path.join("Resources", "election_results.csv")` which will allow any properly formatted csv file to be plugged in and have the analysis run the same way. In addition small could be made to the formatting of the print outs to allow for the information to be applicable to larger or smaller elections. For example in a national election this block of code would only require the person working with the data set to change "County Votes:\n" to "State Votes:\n" or whatever is required for the audit :
 
 <p align="center">
-<img width="460" height="300" src="https://user-images.githubusercontent.com/85508764/123827361-2b820e80-d8c6-11eb-9374-4b814439114d.png">
+<img width="456" height="181" src="https://user-images.githubusercontent.com/85508764/123827361-2b820e80-d8c6-11eb-9374-4b814439114d.png">
 </p>
 
 With the proper instruction and training this can be accomplished by almost anyone with very little hassle.
